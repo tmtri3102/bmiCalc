@@ -1,6 +1,6 @@
 let weight = parseFloat(prompt("Nhập cân nặng theo kg, ví dụ 65"));
 let height = parseFloat(prompt("Nhập chiều cao theo m, ví dụ 1.75"));
-bmi = weight / (height ^ 2);
+bmi = weight / (height * height);
 if (bmi < 18.5) {
 	alert("Underweight");
 } else if (bmi < 25.0) {
